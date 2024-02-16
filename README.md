@@ -52,3 +52,9 @@ The url above should point to the URL where your backend application is running 
 - Install the dependencies: `npm install`.
 - Start the frontend application: `npm run dev`.
 - The application should be running on `http://localhost:5173`, but you can also verify this in your terminal.
+
+![signIn](https://github.com/StoyanKyopchev/Star-Wars/assets/115925638/0e0cf29c-5b25-427e-bece-7a0440a9470b)
+
+![signUp](https://github.com/StoyanKyopchev/Star-Wars/assets/115925638/0cec587f-6f61-4db7-823e-e362df0ddc63)
+
+![table](https://github.com/StoyanKyopchev/Star-Wars/assets/115925638/a0193953-1a23-4ff6-b7a7-ed75f228d43e)
