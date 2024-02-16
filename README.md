@@ -4,13 +4,12 @@ This section will walk you through the process of setting up this project on you
 
 ## Prerequisites
 
-Please make sure that you have Node.js installed on your machine.
+Please make sure that you have Node.js v18.17.1 (or higher) installed on your machine.
 
 ## Clone the Repository
 
 ```sh
 git clone https://github.com/StoyanKyopchev/Star-Wars.git
-cd Star-Wars
 ```
 
 ## Backend Configuration
@@ -24,9 +23,8 @@ MONGODB_CONNECTION_STRING=
 2. MongoDB setup
 
 - Sign up for a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
-- Once done, head to the "Projects" section, click on the "New Project" button at the top right corner of your screen and follow the instructions.
-- Once you have created your project, head to the "Database" section (found on the left) and click the "Build a Database" button. Select the M0 FREE option and the region that is the closest to your location.
-- Next, copy/write down the username and password that are provided to you after building the database and click the "Create User" button.
+- Select the M0 FREE option and the region that is closest to your location.
+- Next, copy/write down the username and password that are provided to you after building the database and click the "Create User" button. Click the "Add My Current Ip Address" button and then "Fisnih and Close".
 - Next, click on the "Database" section in the menu on the left side of your screen and you should see the database that you created. Click on the "Connect" button that is next to the name of your database and select the "Drivers" option.
 - Copy the provided connection string and add it to the `MONGODB_CONNECTION_STRING` variable in the `.env` file that you created earlier. Do not forget to replace `<password>` with the password that you copied/wrote down earlier.
 
@@ -35,10 +33,10 @@ MONGODB_CONNECTION_STRING=
 1. Navigate to the `frontend` folder and create a file called `.env`. Once done, add the following content in it:
 
 ```plaintext
-VITE_SERVER_BASE_URL=
+VITE_SERVER_BASE_URL=http://localhost:5000
 ```
 
-The url above should point to the URL where your backend application is running (the project is set up to run on port 5000 - `http://localhost:5000`).
+The url above should point to the URL where your backend application is running (this project is set up to run on port 5000 - `http://localhost:5000`).
 
 ## Running the Project
 
